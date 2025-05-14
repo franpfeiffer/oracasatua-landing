@@ -18,11 +18,11 @@ export default function SeventhContent() {
                     </div>
                 </div>
                 <div className="space-y-8">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-neue-plak-black text-[#CF3036] leading-tight">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-neue-plak-black text-black leading-tight">
                         HOME IS WAITING FOR YOU HERE
                     </h2>
 
-                    <button className="bg-[#CF3036] text-3xl text-white px-8 py-3 hover:bg-[#F6F6F6]/90 hover:text-black transition-colors font-medium">
+                    <button className="bg-black text-lg text-white border-2 border black  px-8 py-3 hover:bg-white hover:text-black transition-colors font-neue-plak-black">
                         SCHEDULE A VISIT
                     </button>
                 </div>

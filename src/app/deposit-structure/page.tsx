@@ -12,14 +12,12 @@ const DepositStructure = () => {
         <div className="flex flex-col items-center justify-center px-4 py-16 bg-white">
             <div className="max-w-3xl w-full space-y-16 text-center">
                 <div className="space-y-8">
-                    <div className="space-y-4 text-4xl ">
-                        <p className="font-medium">5% at Reservation</p>
-                        <p className="font-medium">5% 45 days after Signing Contract</p>
-                        <p className="font-medium">10% 120 days from Signing Contract</p>
-                        <p className="font-medium">10% at Groundbreaking</p>
-                        <p className="font-medium">10% 12 Months after Groundbreaking</p>
-                        <p className="font-medium">10% Pouring of Highest Residential Unit</p>
-                        <p className="font-medium">50% at Closing</p>
+                    <div className="space-y-4 text-5xl ">
+                        <p className="font-neue-plak-black">10% reservation </p>
+                        <p className="font-neue-plak-black">10% contract in 6 months </p>
+                        <p className="font-neue-plak-black">20 % ground breaking 1 year after</p>
+                        <p className="font-neue-plak-black">10 % Top off middle of 2027</p>
+                        <p className="font-neue-plak-black">50% Closing end of 2027</p>
                     </div>
                 </div>
             </div>
