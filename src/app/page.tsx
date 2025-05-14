@@ -10,23 +10,23 @@ import EightContent from "./components/PageComponents/home/EightContent";
 import NinthContent from "./components/PageComponents/home/NinthContent";
 
 export default function Home() {
-  return (
-    <div className="mt-[65px] lg:mt-[86px]">
-        <Header
-            title="Ora by Casa Tua"
-            description="A NEW RESIDENTIAL EXPERIENCE BY CASA TUA"
-            video="/carrusel-1.mp4"
-            home
-        />
-        <FirstContent />
-        <SecondContent />
-        <ThirdContent />
-        <FourthContent />
-        <FifthContent />
-        <SixthComponent />
-        <SeventhContent />
-        <EightContent />
-        <NinthContent />
-    </div>
-  );
+    return (
+        <div className="mt-[65px] lg:mt-[86px]">
+            <Header
+                title="Ora by Casa Tua"
+                description="A NEW RESIDENTIAL EXPERIENCE BY CASA TUA"
+                video="/carrusel-1.mp4"
+                home
+            />
+            <FirstContent />
+            <SecondContent />
+            <ThirdContent />
+            <FourthContent />
+            <FifthContent />
+            <SixthComponent />
+            <SeventhContent />
+            <EightContent />
+            <NinthContent />
+        </div>
+    );
 }
