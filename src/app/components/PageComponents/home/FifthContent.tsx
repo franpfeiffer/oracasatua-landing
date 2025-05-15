@@ -6,13 +6,11 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const residenceImages = [
-    "/faena-1.jpeg",
-    "/render-first-content.jpeg",
+    "/fifith-content-tree.jpg",
 ];
 
 const bedroomImages = [
-    "/faena-1.jpeg",
-    "/render-first-content.jpeg",
+    "/fifith-content-2.jpg",
 ];
 
 function FifthContent() {

@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 
 export default function Gallery() {
     const images = [
-        "/faena-1.jpeg",
-        "/faena-second-content.jpeg",
-        "/faena-cochera.jpg",
-        "/faena-penthouse.jpg",
-        "/faena-bano.jpg",
-        "/faena-terraza.jpg",
-        "/faena-cocina.jpg",
-        "/faena-buildings.jpg"
+        "/galery1.jpg",
+        "/galery-2.jpg",
+        "/galery-5.jpg",
+        "/galery-3.jpg",
+        "/galery-4.jpg",
+        "/galery-6.jpg",
+        "/carru-4.jpg",
+        "/galery-7.jpg"
     ];
 
     const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +45,7 @@ export default function Gallery() {
                 {images.map((image, index) => (
                     <div
                         key={index}
-                        className="relative group overflow-hidden rounded-lg cursor-pointer"
+                        className="relative group overflow-hidden cursor-pointer"
                         onClick={() => openCarousel(index)}
                     >
                         <img
@@ -53,7 +53,7 @@ export default function Gallery() {
                             alt={`Gallery image ${index + 1}`}
                             className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                         />
-                        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-all" />
                     </div>
                 ))}
             </div>
@@ -78,14 +78,14 @@ export default function Gallery() {
                             />
 
                             <button
-                                className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
+                                className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2"
                                 onClick={goToPrevious}
                             >
                                 ←
                             </button>
 
                             <button
-                                className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
+                                className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2"
                                 onClick={goToNext}
                             >
                                 →
